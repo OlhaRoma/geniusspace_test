@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="scss/main.css" />
   </head>
   <body>
     <header class="header">
@@ -137,6 +137,9 @@
             <ul class="formats-list">
               <li class="formats-item">
                 <article class="formats-card">
+                  <img class="format-image"
+                       src="./images/walrus-format.jpg"
+                       alt="Walrus format">
                   <h3 class="format-title" lang="en">Walrus</h3>
                   <div class="format-text">
                     <p>Площа: до 120 м2</p>
@@ -151,6 +154,9 @@
               </li>
               <li class="formats-item">
                 <article class="formats-card">
+                  <img class="format-image"
+                       src="./images/horseshoe-format.jpg"
+                       alt="Horseshoe format">
                   <h3 class="format-title" lang="en">Horseshoe</h3>
                   <div class="format-text">
                     <p>Площа: до 25 м2</p>
@@ -162,17 +168,20 @@
               </li>
               <li class="formats-item">
                 <article class="formats-card">
+                  <img class="format-image"
+                       src="./images/handlebar-format.jpg"
+                       alt="Handlebar format">
                   <h3 class="format-title" lang="en">Handlebar</h3>
                   <div class="format-text">
-                    <p>Площа: до 15 м2</p>
+                    <p>Площа: до 15 м2</p>S
                     <p>Меню: найпопулярніші позиції меню</p>
-                    <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
+                    <p>Штат: 1 продавець, 1 пекар, 1 помічник <br> пекаря</p>
                     <p>Посадкові місця: відсутні</p>
                   </div>
                 </article>
               </li>
             </ul>
-            <button class="slider-button" type="button">
+            <button class="slider-button next" type="button">
               <svg width="16px" height="16px">
                 <use href="./images/icons.svg#icon-arrow"></use>
               </svg>
@@ -188,7 +197,25 @@
                 Приєднуйся до мережі пекарень
               </h2>
               <p>Заповни форму, щоб ми звʼязались з тобою!</p>
-              <button class="button" type="submit">Замовити дзвінок</button>
+              <form name="contact-form" autocomplete="off">
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-name">Ім'я</label>
+                  <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Ім'я" />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-tel">Телефон</label>
+                  <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Телефон" />
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
+                  <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Електронна пошта" />
+                </div>
+
+                <button  class="form-button button" type="submit">Замовити дзвінок</button>
+                <p class="form-policy">Натискаючи на кнопку я погоджуюсь <a class="form-policy-link" href="#"> з політикою конфіденційності</a></p>
+              </form>
             </div>
             <iframe
               class="contacts-map"
@@ -266,9 +293,49 @@
       </div>
     </footer>
 
-  <div class="backdrop">
+  <div class="backdrop is-hidden">
+<!--    is-hidden ховає модеальне вікно коли заходиш на сторінку-->
     <div class="modal">
       <button class="modal-btn-close" type="button">Close</button>
+      <h2 class="modal-title">Замовити дзвінок</h2>
+      <p class="modal-text">Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+      <form name="modal-form" autocomplete="off">
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-name">Ім'я</label>
+          <input class="form-input" type="text"
+                 name="user-name" id="user-name"
+                 placeholder="Ім'я"
+                 minlength="2"
+                 maxlength="20"
+                 required/>
+        </div>
+
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-tel">Телефон</label>
+          <input class="form-input" type="tel"
+                 name="user-tel" id="user-tel"
+                 placeholder="Телефон"
+                 pattern="^\+[0-9]{12}"
+                 required/>
+        </div>
+
+        <div class="form-field">
+          <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
+          <input class="form-input" type="email"
+                 name="user-email" id="user-email"
+                 placeholder="Електронна пошта"
+                 required/>
+        </div>
+
+<!--        <div class="checkbox">-->
+<!--          <input class="checkbox-input" type="checkbox"-->
+<!--                 id="terms-conditions" name="terms-conditions"/>-->
+<!--          <label class="checkbox-label" for="terms-conditions">Точно погоджуюсь</label>-->
+<!--        </div>-->
+
+        <button  class="form-button button" type="submit">Замовити дзвінок</button>
+        <p class="form-policy">Натискаючи на кнопку я погоджуюсь <a class="form-policy-link" href="#"> з політикою конфіденційності</a></p>
+      </form>
     </div>
   </div>
 
