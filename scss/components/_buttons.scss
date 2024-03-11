@@ -1,4 +1,11 @@
 .button {
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  display: block;
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
   padding: 16px 32px;
   color: var(--color-primary-light);
   font-weight: 600;
@@ -6,10 +13,24 @@
   border: 2px solid var(--brand-color);
   border-radius: 8px;
   cursor: pointer;
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+
+  &:hover {
+    color: var(--brand-color-dark);
+    background-color: transparent;
+  }
+=======
+>>>>>>> Stashed changes
 }
 .button:hover {
   color: var(--brand-color-dark);
   background-color: transparent;
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 }
 /*.button:disabled {*/
 /*    color: lightgrey;*/

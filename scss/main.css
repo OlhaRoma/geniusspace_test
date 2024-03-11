@@ -46,11 +46,33 @@ body {
   color: var(--color-primary-dark);
   background-color: var(--color-primary-light);
   font-family: "Poppins", sans-serif;
+<<<<<<< Updated upstream
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
 }
+=======
+<<<<<<< HEAD
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+=======
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 
 ul {
   padding: 0;
@@ -62,6 +84,20 @@ h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 a {
   display: inline-block;
 }
@@ -70,6 +106,11 @@ address {
   font-style: normal;
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 .section {
   padding: 48px 0;
 }
@@ -81,6 +122,10 @@ address {
   padding: 0 24px;
 }
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 .visually-hidden {
   position: absolute;
   left: -10000px;
@@ -90,6 +135,48 @@ address {
   overflow: hidden;
 }
 
+<<<<<<< Updated upstream
+.advantages-section {
+  padding: 16px 0;
+  background-color: var(--brand-color);
+=======
+<<<<<<< HEAD
+.text-brand {
+  color: var(--brand-color);
+>>>>>>> Stashed changes
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.advantages-text {
+  color: var(--color-primary-light);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section-title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.section-title.centered {
+  text-align: center;
+}
+
+.section-title .accent {
+  color: var(--brand-color-dark);
+}
+
+.button {
+<<<<<<< Updated upstream
+=======
+  display: block;
+=======
 .advantages-section {
   padding: 16px 0;
   background-color: var(--brand-color);
@@ -122,6 +209,8 @@ address {
 }
 
 .button {
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
   padding: 16px 32px;
   color: var(--color-primary-light);
   font-weight: 600;
@@ -130,7 +219,14 @@ address {
   border-radius: 8px;
   cursor: pointer;
 }
+<<<<<<< Updated upstream
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 .button:hover {
   color: var(--brand-color-dark);
   background-color: transparent;
@@ -140,6 +236,87 @@ address {
 /*    color: lightgrey;*/
 /*    cursor: not-allowed;*/
 /*} щоб не натискалась кнопка поки поля не заповнені*/
+<<<<<<< Updated upstream
+.chefs-title {
+  position: relative;
+  margin: 0 auto 80px;
+}
+
+.chefs-title::before,
+.chefs-title::after {
+  /*display: block; стає непотрібним через position*/
+  width: 352px;
+  border: 2px solid var(--brand-color-light);
+  content: "";
+  position: absolute;
+  bottom: 24px;
+}
+
+.chefs-title::before {
+  left: 0;
+}
+
+.chefs-title::after {
+  right: 0;
+}
+
+.chefs-list {
+  display: flex;
+  gap: 40px 30px;
+  flex-wrap: wrap;
+}
+
+.chef-item {
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+.chef-card {
+  display: flex;
+  gap: 30px;
+}
+
+.chef-photo {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow: -16px 16px 0 0 var(--color-primary-light), -16px 16px 0 2px var(--color-secondary-dark);
+}
+
+.chef-title {
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.chef-text p {
+  margin-bottom: 24px;
+}
+
+.chef-text p:last-child {
+  margin-bottom: 0;
+}
+
+.chef-text {
+  margin-bottom: 0;
+}
+
+.contacts-section {
+  padding-bottom: 96px;
+}
+
+.contacts-container {
+  display: flex;
+  gap: 24px;
+}
+
+.contacts-title {
+  margin-bottom: 16px;
+}
+<<<<<<< Updated upstream
+=======
+.input__label {
+=======
 .chefs-title {
   position: relative;
   margin: 0 auto 80px;
@@ -213,6 +390,7 @@ address {
 .contacts-title {
   margin-bottom: 16px;
 }
+>>>>>>> Stashed changes
 
 .contacts-map {
   flex-shrink: 0;
@@ -303,11 +481,21 @@ address {
 }
 
 .form-label {
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
   position: absolute;
   top: 16px;
   left: 42px;
   /*display: block; position надає block автоматично*/
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+.input__control {
+=======
+>>>>>>> Stashed changes
 
 /*Варіанти імплементації, щоб label переходив над полем input*/
 /*.form-input:focus+.form-label {*/
@@ -319,6 +507,10 @@ address {
 /*    transform: translate(-40px, -36px);}
 + тут місцями label та input міняти не треба*/
 .form-input {
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
   padding: 16px 42px;
   width: 100%;
   font-size: 16px;
@@ -327,6 +519,25 @@ address {
   border-radius: 8px;
   background-color: transparent;
 }
+<<<<<<< Updated upstream
+
+/*.form-input:placeholder-shown {*/
+/*    background-color: hotpink;*/
+/*} надає фон до введення даних*/
+.form-input:focus {
+=======
+<<<<<<< HEAD
+.input__control:focus {
+>>>>>>> Stashed changes
+  border-color: var(--brand-color);
+  outline: none; /*щоб відображалась зміна кольору при наведенні*/
+}
+<<<<<<< Updated upstream
+
+.form-input::placeholder {
+=======
+.input__control::-moz-placeholder {
+=======
 
 /*.form-input:placeholder-shown {*/
 /*    background-color: hotpink;*/
@@ -337,10 +548,47 @@ address {
 }
 
 .form-input::placeholder {
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
   font-size: 16px;
   line-height: 1.17;
   color: var(--color-secondary-dark);
 }
+<<<<<<< Updated upstream
+
+.form-input:focus::placeholder {
+=======
+<<<<<<< HEAD
+.input__control::placeholder {
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--color-secondary-dark);
+}
+.input__control:focus::-moz-placeholder {
+>>>>>>> Stashed changes
+  color: var(--color-primary-dark);
+}
+
+.form-button {
+  margin: 0 auto 24px;
+  display: block; /*щоб працював margin*/
+}
+
+.form-policy {
+  margin: 0 auto; /*вирівняли по центру*/
+  max-width: 220px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.form-policy-link {
+  color: var(--color-primary-dark);
+<<<<<<< Updated upstream
+  text-underline-offset: 2px;
+=======
+=======
 
 .form-input:focus::placeholder {
   color: var(--color-primary-dark);
@@ -363,6 +611,8 @@ address {
 .form-policy-link {
   color: var(--color-primary-dark);
   text-underline-offset: 2px;
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 }
 
 /*.checkbox {*/
@@ -388,6 +638,11 @@ address {
 /*    border-radius: 2px;*/
 /*    content: '';*/
 /*}*/
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 .formats-container {
   display: flex;
   gap: 32px;
@@ -497,6 +752,10 @@ address {
   color: var(--brand-color);
 }
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 .link {
   color: var(--color-primary-light);
   text-decoration: none;
@@ -507,25 +766,467 @@ address {
   color: var(--brand-color);
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.pagination__button {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  background-color: var(--color-secondary-dark);
+  border-radius: 50%;
+}
+.pagination__button--active {
+  background-color: var(--brand-color);
+}
+
+.slider-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: transparent;
+  fill: var(--color-primary-dark);
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider-button:hover {
+  background: var(--color-primary-dark);
+  fill: var(--color-primary-light);
+}
+.slider-button.next {
+  transform: rotate(180deg);
+}
+
+.advantages-section {
+  padding: 16px 0;
+}
+@media screen and (min-width: 768px) {
+  .advantages-section {
+    background-color: var(--brand-color);
+  }
+}
+.advantages-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 40px;
+  background-color: var(--brand-color-light);
+  border-radius: 24px;
+}
+@media screen and (min-width: 768px) {
+  .advantages-section__list {
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    gap: 40px;
+    padding: 0;
+  }
+}
+.advantages-section__item {
+  color: var(--color-primary-dark);
+  font-size: 14px;
+  font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+  .advantages-section__item {
+    color: var(--color-primary-light);
+    font-size: 20px;
+  }
+}
+
+.chefs-section__title {
+  position: relative;
+  margin: 0 auto 24px;
+}
+@media screen and (min-width: 1280px) {
+  .chefs-section__title {
+    margin-bottom: 80px;
+  }
+}
+.chefs-section__title::before, .chefs-section__title::after {
+  /*display: block; стає непотрібним через position*/
+  display: none;
+  position: absolute;
+  bottom: 24px;
+  width: 352px;
+  border: 2px solid var(--brand-color-light);
+  content: "";
+}
+@media screen and (min-width: 1280px) {
+  .chefs-section__title::before, .chefs-section__title::after {
+    display: block;
+  }
+}
+.chefs-section__title::before {
+  left: 0;
+}
+.chefs-section__title::after {
+  right: 0;
+}
+.chefs-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .chefs-section__list {
+    flex-direction: row;
+    gap: 40px 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .chefs-section__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+.contacts-section {
+  padding-bottom: 96px;
+}
+.contacts-section__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media screen and (min-width: 768px) {
+  .contacts-section__container {
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+.contacts-section__title {
+  margin-bottom: 16px;
+}
+.contacts-section__form-field {
+  margin-bottom: 24px;
+}
+.contacts-section__button {
+  margin: 0 auto 16px;
+  display: block; /*щоб працював margin*/
+}
+.contacts-section__map {
+  flex-shrink: 0;
+  height: 176px;
+  margin: 0 -24px;
+  border-radius: 16px;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .contacts-section__map {
+    margin: auto;
+    width: 320px;
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .contacts-section__map {
+    width: 600px;
+    height: 595px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
+  padding: 32px 0;
+  background-color: var(--color-primary-dark);
+  background-image: url("../images/footer-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    text-align: left;
+  }
+}
+.footer::before, .footer::after {
+  position: absolute;
+  bottom: 0;
+  background-repeat: no-repeat;
+  content: "";
+}
+.footer::before {
+  width: 180px;
+  height: 120px;
+  left: 0;
+  background-image: url("../images/decor-bread-small.png");
+}
+.footer::after {
+  width: 380px;
+  height: 190px;
+  right: 0;
+  background-image: url("../images/decor-bread-large.png");
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .footer__container {
+    flex-direction: row;
+  }
+}
+.footer__nav, .footer__address {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .footer__nav, .footer__address {
+    flex-direction: row;
+    flex-basis: 50%;
+  }
+}
+.footer__logo, .footer__menu {
+  flex-grow: 1;
+}
+.footer__address-list, .footer__address-info {
+  flex-grow: 1;
+}
+.footer__address-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.footer__address-link:hover {
+  color: var(--brand-color);
+}
+.footer__address-icon {
+  fill: var(--color-primary-light);
+}
+.footer__address-icon:hover {
+  fill: var(--brand-color);
+}
+.footer__address-copyright {
+  font-size: 14px;
+}
+
+.form-policy {
+  margin: 0 auto;
+  /*вирівняли по центру*/
+  max-width: 220px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+.form-policy__link {
+  color: var(--color-primary-dark);
+  text-underline-offset: 2px;
+}
+
+.formats-section__slider {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.formats-section__container {
+  overflow: hidden;
+}
+.formats-section__title {
+  margin-bottom: 80px;
+}
+.formats-section__list {
+  margin-bottom: 32px;
+}
+.formats-section__button {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .formats-section__button {
+    display: flex;
+  }
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 16px;
+}
+@media screen and (min-width: 1280px) {
+  .header {
+    padding-top: 32px;
+  }
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+.header__menu {
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .header__menu {
+    display: flex;
+    gap: 64px;
+    flex-grow: 1;
+    justify-content: center;
+  }
+}
+.header__button {
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .header__button {
+    display: block;
+  }
+}
+.header__burger {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  fill: var(--color-primary-light);
+}
+@media screen and (min-width: 1280px) {
+  .header__burger {
+    display: none;
+  }
+}
+
+.hero-section {
+  padding: 124px 0;
+  background-image: linear-gradient(102.76deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url("/images/hero-section-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+@media screen and (min-width: 1280px) {
+  .hero-section {
+    padding: 272px 0;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(102.76deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url("/images/hero-section-background@2x.jpg");
+  }
+}
+.hero-section__title {
+  margin-bottom: 48px;
+  color: var(--color-primary-light);
+  text-align: center;
+  font-size: 67px;
+  line-height: 1;
+  font-weight: 900;
+}
+@media screen and (min-width: 1280px) {
+  .hero-section__title {
+    margin-bottom: 0px;
+    font-size: 128px;
+    line-height: 1.5;
+  }
+}
+.hero-section__button {
+  margin: 0 auto;
+}
+@media screen and (min-width: 1280px) {
+  .hero-section__button {
+    display: none;
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-primary-light);
+  transform: translateX(100%);
+  transition: transform 0.3s;
+}
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+.mobile-menu__btn-close {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+}
+
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 .backdrop {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+<<<<<<< Updated upstream
   padding: 20px 0;
+=======
+<<<<<<< HEAD
+  padding: 20px;
+=======
+  padding: 20px 0;
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   transition: opacity 0.5s, visibility 0.5s;
 }
+<<<<<<< Updated upstream
 
 .backdrop.is-hidden {
+=======
+<<<<<<< HEAD
+.backdrop.is-hidden {
+  /*display: none;*/
+  /*достатньо, якщо НЕ потрібна анімація*/
+  opacity: 0;
+  /*якщо потрібна анімація*/
+  visibility: hidden;
+  /*якщо потрібна анімація*/
+  pointer-events: none;
+  /*якщо потрібна анімація*/
+=======
+
+.backdrop.is-hidden {
+>>>>>>> Stashed changes
   /*display: none;*/ /*достатньо, якщо НЕ потрібна анімація*/
   opacity: 0; /*якщо потрібна анімація*/
   visibility: hidden; /*якщо потрібна анімація*/
   pointer-events: none; /*якщо потрібна анімація*/
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 }
 
 .modal {
@@ -534,17 +1235,51 @@ address {
   max-width: 880px;
   height: 100%;
   max-height: 880px;
+<<<<<<< Updated upstream
   padding: 128px;
+=======
+<<<<<<< HEAD
+  padding: 48px;
+=======
+  padding: 128px;
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
   background-color: var(--color-primary-light);
   border-radius: 32px;
   overflow-y: auto; /*щоб у вікні вміщався весь контент коректно, можна було скролити*/
 }
+<<<<<<< Updated upstream
 
 .modal-btn-close {
+=======
+<<<<<<< HEAD
+@media screen and (min-width: 1280px) {
+  .modal {
+    padding: 128px;
+  }
+}
+.modal__btn-close {
+=======
+
+.modal-btn-close {
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
   position: absolute;
   top: 40px;
   right: 40px;
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+.modal__form-field {
+  margin-bottom: 32px;
+}
+.modal__button {
+  margin: 0 auto 24px;
+}
+=======
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
 
 /*.modal-title {*/
 /*    margin-bottom: 0;*/
@@ -561,6 +1296,99 @@ address {
 /*    text-align: center;*/
 /*    color: var(--brand-color-dark);*/
 /*}*/
+<<<<<<< Updated upstream
+.slider-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: transparent;
+  fill: var(--color-primary-dark);
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 50%;
+  cursor: pointer;
+=======
+<<<<<<< HEAD
+.section {
+  padding: 20px 0;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 48px 0;
+  }
+}
+.section__title {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .section__title {
+    font-size: 64px;
+    line-height: 1.3;
+  }
+}
+.section__title--centered {
+  text-align: center;
+>>>>>>> Stashed changes
+}
+
+.slider-button:hover {
+  background: var(--color-primary-dark);
+  fill: var(--color-primary-light);
+}
+
+.slider-button.next {
+  transform: rotate(180deg);
+}
+
+.traditions-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.traditions-content {
+  max-width: 710px;
+}
+
+.traditions-title {
+  margin-bottom: 42px;
+}
+
+.traditions-section {
+  padding-top: 96px;
+}
+
+.traditions-text .brand {
+  color: var(--brand-color);
+  font-weight: 600;
+}
+
+.traditions-text .uppercase {
+  text-transform: uppercase;
+}
+
+.traditions-text.limited {
+  max-width: 340px;
+}
+<<<<<<< Updated upstream
+
+/*# sourceMappingURL=main.css.map */
+=======
+.traditions-section__image {
+  display: none;
+  border-radius: 400px 400px 0px 0px;
+}
+@media screen and (min-width: 768px) {
+  .traditions-section__image {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
+=======
 .slider-button {
   display: flex;
   justify-content: center;
@@ -617,3 +1445,5 @@ address {
 }
 
 /*# sourceMappingURL=main.css.map */
+>>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
+>>>>>>> Stashed changes
