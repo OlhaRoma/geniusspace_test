@@ -1,32 +1,19 @@
-<<<<<<< Updated upstream
-@import './utils/fonts';
-@import './utils/variables';
-=======
-<<<<<<< HEAD
 @import '../scss/utils/fonts';
 @import '../scss/utils/variables';
->>>>>>> Stashed changes
 
-@import './base';
+@import '../scss/base';
 
-@import './utils/utils';
+@import '../scss/utils/utils';
+@import '../scss/utils/texts';
 
-@import './components/advantages-section';
-@import './components/buttons';
-@import './components/chefs-section';
-@import './components/contacts-section';
-@import './components/footer';
-@import './components/form';
-@import './components/formats-section';
-@import './components/header';
-@import './components/hero-section';
-@import './components/links';
-@import './components/modal';
-@import './components/slider';
-@import './components/traditions-section';
+@import '../scss/components/buttons';
+@import '../scss/components/chef-card';
+@import '../scss/components/format-card';
+@import '../scss/components/inputs';
+@import '../scss/components/links';
+@import '../scss/components/pagination';
+@import '../scss/components/slider-button';
 
-<<<<<<< Updated upstream
-=======
 @import '../scss/layouts/advantages-section';
 @import '../scss/layouts/chefs-section';
 @import '../scss/layouts/contacts-section';
@@ -40,27 +27,3 @@
 @import '../scss/layouts/modal';
 @import '../scss/layouts/section';
 @import '../scss/layouts/traditions-section';
-=======
-@import './utils/fonts';
-@import './utils/variables';
-
-@import './base';
-
-@import './utils/utils';
-
-@import './components/advantages-section';
-@import './components/buttons';
-@import './components/chefs-section';
-@import './components/contacts-section';
-@import './components/footer';
-@import './components/form';
-@import './components/formats-section';
-@import './components/header';
-@import './components/hero-section';
-@import './components/links';
-@import './components/modal';
-@import './components/slider';
-@import './components/traditions-section';
-
->>>>>>> 6ff42a3054ebf98959570cc4c75e0156e3e9334b
->>>>>>> Stashed changes

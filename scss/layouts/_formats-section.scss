@@ -1,0 +1,38 @@
+.formats-section {
+  &__slider {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+  }
+
+  &__container {
+    overflow: hidden;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__list {
+    margin-bottom: 32px;
+  }
+
+  &__button {
+    display: none;
+
+    @media screen and (min-width: $bp-tablet) {
+    display: flex;
+  }
+
+  }
+
+  // &__list {
+  //   display: flex;
+  //   gap: 20px;
+  //   flex-wrap: wrap;
+  // } стає непотрібним
+  
+  // &__item {
+  //   flex-basis: calc((100% - 40px) / 3);
+  // } якщо буде більше троьх карток, щоб вони переносились н анаступний рядок
+}
